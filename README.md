@@ -29,6 +29,5 @@ This project implements a text classification model that processes raw email tex
 
 ## 🚀 Model Evaluation
 
-The model was evaluated on the test set (2,313 emails), achieving strong performance across metrics[cite: 1]:
+The model was evaluated on the test set (2,313 emails), achieving strong performance across metrics nicluded in the confussion matrix.
 
-### Confusion Matrix
