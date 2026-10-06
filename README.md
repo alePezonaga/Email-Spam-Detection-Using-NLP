@@ -9,7 +9,7 @@ This project implements a text classification model that processes raw email tex
 ### Key Results (Test Set)
 * **Accuracy**: 0.9836 (98.36%)
 * **Training Data**: 9,248 emails
-* **Test Data**: 2,313 emailS
+* **Test Data**: 2,313 emails
 * **Duplicates Removed**: 439 duplicated emails were cleaned from the dataset
 
 ## 🛠️ Tech Stack
