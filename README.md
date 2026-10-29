@@ -17,15 +17,15 @@ This project implements a text classification model that processes raw email tex
 * **Python**
 * **Pandas** for data manipulation
 * **Scikit-learn** for machine learning models and pipelines:
-  * `TfidfVectorizer` (with English stop words removal)
-  * `RandomForestClassifier` (100 estimators)
-  * `Pipeline` for seamless workflow integration
+  * TfidfVectorizer (with English stop words removal)
+  * RandomForestClassifier (100 estimators)
+  * Pipeline for seamless workflow integration
 
 ##  Dataset Preparation
 
-1. **Loading & Cleaning**: Loads data from `emails.csv`, drops missing values in `text` and `label` columns, and converts spam labels to binary format (`1` for spam, `0` otherwise).
+1. **Loading & Cleaning**: Loads data from emails.csv, drops missing values in text and label columns, and converts spam labels to binary format (1 for spam, 0 otherwise).
 2. **Deduplication**: Identifies and removes duplicate email texts to prevent data leakage (439 duplicate emails removed).
-3. **Stratified Split**: Splits the dataset into 80% training data and 20% test data, maintaining class proportions using stratification (`random_state=42`).
+3. **Stratified Split**: Splits the dataset into 80% training data and 20% test data, maintaining class proportions using stratification (random_state=42).
 
 ##  Model Evaluation
 
